@@ -28,13 +28,9 @@
 
 ## 📸 Screenshots
 
-![App UI](./screenshots/login.png)
-
-```
-![App UI](./screenshots/manager-dashboard.png)
-
-```
-![App UI](./screenshots/developer-dashboard.png)
+![Login Page](public/screenshots/login.png)
+![Manager Dashboard](public/screenshots/manager-dashboard.png)
+![Developer Dashboard](public/screenshots/developer-dashboard.png)
 ---
 
 ## ✨ Features
