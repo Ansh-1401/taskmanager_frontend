@@ -1,70 +1,191 @@
-# Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ✅ TaskFlow — Frontend
 
-## Available Scripts
+### *A sleek, modern Task Manager built with React*
 
-In the project directory, you can run:
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
-### `npm start`
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](https://choosealicense.com/licenses/mit/)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue?style=flat-square)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<br/>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+> 🎯 **Stay organized. Stay productive. Ship more.**
+> TaskFlow helps you manage your daily tasks with a beautiful, intuitive UI — built for speed and simplicity.
 
-### `npm test`
+<br/>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[🚀 Live Demo](https://taskmanager-frontend-koiw.onrender.com/) · [🐛 Report Bug](#) · [💡 Request Feature](#)
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+</div>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📸 Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![App UI](./screenshots/login.png)
 
-### `npm run eject`
+```
+![App UI](./screenshots/manager-dashboard.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+![App UI](./screenshots/developer-dashboard.png)
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ✨ Features
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- 📋 **Create, edit & delete tasks** with ease
+- ✅ **Mark tasks as complete** — satisfying one-click done!
+- 🗂️ **Filter & sort** tasks by status, priority, or date
+- 🔐 **JWT-based Auth** — secure login & signup
+- 📱 **Fully Responsive** — works on mobile, tablet & desktop
+- 🌙 **Clean UI** — distraction-free design
+- ⚡ **Fast & lightweight** — React-powered SPA
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🛠️ Tech Stack
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+| Technology | Purpose |
+|---|---|
+| ⚛️ **React** | UI library & component architecture |
+| 🔀 **React Router** | Client-side navigation |
+| 📡 **Axios / Fetch** | API communication with backend |
+| 🎨 **CSS Modules / Tailwind** | Styling |
+| 🔑 **JWT (localStorage)** | Auth token management |
+| ⚡ **Vite** | Dev server & build tool |
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🚀 Getting Started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 📦 Prerequisites
 
-### Analyzing the Bundle Size
+Make sure you have the following installed:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+node >= 18.0.0
+npm >= 9.0.0
+```
 
-### Making a Progressive Web App
+### 🔧 Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**1. Clone the repository**
+```bash
+git clone https://github.com/Ansh-1401/taskmanager_frontend.git
+cd taskflow-frontend
+```
 
-### Advanced Configuration
+**2. Install dependencies**
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+**3. Set up environment variables**
+```bash
+cp .env.example .env
+```
 
-### Deployment
+Edit `.env` file:
+```env
+VITE_API_BASE_URL=http://localhost:8080/api
+VITE_APP_NAME=TaskFlow
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+**4. Start the development server**
+```bash
+npm run dev
+```
 
-### `npm run build` fails to minify
+🎉 App is running at **http://localhost:5173**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 📁 Project Structure
+
+```
+taskflow-frontend/
+├── 📂 public/
+├── 📂 src/
+│   ├── 📂 components/       # Reusable UI components
+│   │   ├── TaskCard.jsx
+│   │   ├── TaskForm.jsx
+│   │   └── Navbar.jsx
+│   ├── 📂 pages/            # Route-level pages
+│   │   ├── Home.jsx
+│   │   ├── Login.jsx
+│   │   └── Register.jsx
+│   ├── 📂 services/         # API call functions
+│   │   └── taskService.js
+│   ├── 📂 context/          # Global state (Auth context)
+│   │   └── AuthContext.jsx
+│   ├── 📂 hooks/            # Custom React hooks
+│   ├── 📂 assets/           # Images, icons
+│   ├── App.jsx
+│   └── main.jsx
+├── .env.example
+├── package.json
+└── vite.config.js
+```
+
+---
+
+## 🔗 API Integration
+
+This frontend connects to the **TaskFlow Backend** (Spring Boot).
+
+> 🔙 Backend repo: [taskflow-backend](https://github.com/Ansh-1401/task_manager_backend)
+
+Make sure the backend server is running on `http://localhost:8080` before starting the frontend.
+
+---
+
+## 🧪 Available Scripts
+
+```bash
+npm run dev       # 🔥 Start development server
+npm run build     # 📦 Build for production
+npm run preview   # 👀 Preview production build
+npm run lint      # 🔍 Run ESLint
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions are always welcome! 🙌
+
+```bash
+# 1. Fork the project
+# 2. Create your feature branch
+git checkout -b feature/AmazingFeature
+
+# 3. Commit your changes
+git commit -m "✨ Add some AmazingFeature"
+
+# 4. Push to the branch
+git push origin feature/AmazingFeature
+
+# 5. Open a Pull Request
+```
+
+---
+
+## 📄 License
+
+Distributed under the **MIT License**. See `LICENSE` for more information.
+
+---
+
+<div align="center">
+
+Made with ❤️ by [Ansh Srivastava](https://github.com/Ansh-1401/taskmanager_frontend)
+
+⭐ **Star this repo if you find it helpful!** ⭐
+
+</div>
